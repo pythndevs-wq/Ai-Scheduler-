@@ -3,18 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ai Productivity Coach</title>
+    <title>Dashboard | Ai Productivity Coach</title>
     <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
+    <!-- Side bar structure here -->
+     <h1>Under construction</h1>
+     <aside class="sidebar">
+        <h2 class="logo">Ai Coach</h2>
+        <ul>
+            <li><a href="#tasks">Tasks</a></li>
+            <li><a href="#timer">Timer</a></li>
+            <li><a href="#progress">Progress</a></li>
+            <li><a href="#chat">Chat and Plan</a></li>
+            <li><a href="#settings">Settings</a></li>
+        </ul>
+     </aside>
 
-        </nav>
-    </header>
+     <!-- Here is coming the main content -->
+      <main class="main-content">
 
-    <footer>
-        
-    </footer>
+        <!-- Top bar is here  -->
+         <header class="topbar">
+            <h1>Dashboard</h1>
+         </header>
+
+         <!-- Pannel section here  -->
+          <section class="pannels">
+            <div id="tasks" class="card"><h3>Task Manager</h3></div>
+            <div id="timer" class="card"><h3>Focus Timer</h3></div>
+            <div id="progress" class="card"><h3>Progress Tracker</h3></div>
+            <div id="progress" class="card"><h3>Ai Suggestions</h3></div>
+          </section>
+
+          <!-- chatting with ai will be added tomorrow  -->
+          <section id="chat" class="chat-section">
+            <div class="chat-box">
+                <div class="message ai">Hello! Ready to plan your day?</div>
+                <div class="message user">Yes, I want to focus on study today</div>
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Ask Your Ai coach...">
+                <button>Send</button>
+            </div>
+          </section>
+      </main>
 </body>
 </html>
